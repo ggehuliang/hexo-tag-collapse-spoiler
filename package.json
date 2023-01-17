@@ -1,0 +1,23 @@
+{
+  "name": "hexo-tag-collapse-spoiler",
+  "version": "1.0.0",
+  "description": "Hexo plugin for collapse and spoiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ggehuliang/hexo-tag-collapse-spoiler.git"
+  },
+  "keywords": [
+    "hexo",
+    "collapse"
+  ],
+  "author": "WKKun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ggehuliang/hexo-tag-collapse-spoiler/issues"
+  },
+  "homepage": "https://github.com/ggehuliang/hexo-tag-collapse-spoiler#readme"
+}

@@ -1,0 +1,25 @@
+.collapse-content:not(.expanded) {
+  display: none;
+}
+
+.collapsing {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+
+.collapse-border {
+  margin: 5px 0;
+  padding: 0 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  position: relative;
+  clear: both;
+}
+
+.collapse-hint-show:not(.show) {
+  display: none;
+}
+.collapse-hint-hide:not(.show) {
+  display: none;
+}
