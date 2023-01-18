@@ -1,25 +1,55 @@
-.collapse-content:not(.expanded) {
+.collapse .collapse-content:not(.expanded) {
   display: none;
 }
 
-.collapsing {
+.collapse .collapsing {
   height: 0;
   overflow: hidden;
   transition: height 0.35s ease;
 }
 
-.collapse-border {
-  margin: 5px 0;
-  padding: 0 10px;
-  border: 1px solid #e5e5e5;
-  border-radius: 3px;
+.collapse .collapse-cardtitle {
+  background: rgba(0, 0, 0, 0.175);
+  border-radius: 0.175rem 0.175rem 0 0;
+  padding: 0.3rem 1rem;
+  font-size: 0.85rem;
+  font-weight: bold;
+  display: block;
+  cursor: pointer;
+}
+
+.collapse .collapse-cardborder {
+  margin: 0 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  border-radius: 0 0 0.375rem 0.375rem;
   position: relative;
   clear: both;
 }
 
-.collapse-hint-show:not(.show) {
+.collapse .collapse-border {
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  border-radius: 0.375rem;
+  position: relative;
+  clear: both;
+}
+
+.collapse .collapse-ctrl:not(.show) .collapse-hint-hide {
   display: none;
 }
-.collapse-hint-hide:not(.show) {
+.collapse .collapse-ctrl.show .collapse-hint-show {
   display: none;
+}
+.collapse .collapse-ctrl .collapse-hint-ico {
+  display: inline-block;
+  transition: all 0.35s ease;
+  margin-right: 0.25rem;
+}
+.collapse .collapse-ctrl:not(.show) .collapse-hint-ico {
+  transform: rotate(0deg);
+}
+.collapse .collapse-ctrl.show .collapse-hint-ico {
+  transform: rotate(90deg);
 }
