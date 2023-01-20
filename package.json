@@ -1,7 +1,7 @@
 {
   "name": "hexo-tag-collapse-spoiler",
   "version": "1.0.0",
-  "description": "Hexo plugin for collapse and spoiler",
+  "description": "Hexo tag plugin for collapse spoiler",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

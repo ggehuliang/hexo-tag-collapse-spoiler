@@ -1,5 +1,13 @@
+.collapse {
+  margin: 0.5rem 0 0.5rem 0;
+}
+
 .collapse .collapse-content:not(.expanded) {
   display: none;
+}
+
+.collapse-content .content-flex {
+  display: flex;
 }
 
 .collapse .collapsing {
@@ -28,7 +36,7 @@
 }
 
 .collapse .collapse-border {
-  margin: 0.5rem 0;
+  margin: 0 0;
   padding: 0.5rem 1rem;
   border: 1px solid rgba(0, 0, 0, 0.175);
   border-radius: 0.375rem;
